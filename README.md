@@ -31,3 +31,8 @@ sudo npm i -g @ansible/ansible-language-server
 sudo npm i -g vscode-langservers-extracted
 sudo npm i -g bash-language-server
 ````
+
+5. Install Coc Plugins:
+`:CocInstall coc-prettier`
+`:CocInstall coc-pyright`
+`:CocInstall coc-yaml`
