@@ -63,7 +63,7 @@ require'lspconfig'.ruff_lsp.setup{on_attach=require'completion'.on_attach}
 require'lspconfig'.tsserver.setup{on_attach=require'completion'.on_attach}
 require'lspconfig'.golangci_lint_ls.setup{on_attach=require'completion'.on_attach}
 require'lspconfig'.html.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.bashls.setup{on_attach=require'completion'.on_attach}
+require'lspconfig'.bashls.setup{}
 require'lspconfig'.anakin_language_server.setup{}
 require'lspconfig'.pyright.setup{}
 require'lspconfig'.pylsp.setup{}
